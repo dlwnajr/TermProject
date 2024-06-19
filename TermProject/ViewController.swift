@@ -89,7 +89,6 @@ class CityViewController: UIViewController {
         super.viewDidLoad()
         cityPickerView.dataSource = self
         cityPickerView.delegate = self
-        // Do any additional setup after loading the view.
     }
 }
 
@@ -126,7 +125,7 @@ extension CityViewController {
         let city = cities[selectedCity]
         let cityName = selectedCity
         let text = textField.text
-        let description = cityDescriptions[selectedCity] // Assuming you have cityDescriptions defined somewhere
+        let description = cityDescriptions[selectedCity]
         return (cityName, city?["lon"], city?["lat"], text, description)
     }
 }

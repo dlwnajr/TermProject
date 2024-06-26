@@ -5,4 +5,4 @@
 아래에는 도시에 대한 간단한 정보와 사용자가 남긴 메모가 나타나게 된다.
 
 
-> 코드 설명 및 시연 영상 : https://youtu.be/ZSj36eimR4c?si=r3Y6jEFivxoKYeg2
+> 코드 설명 및 시연 영상 :
